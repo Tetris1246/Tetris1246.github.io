@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>encryption</title>
+
+	<link rel="stylesheet" href="style.css">
+
+	<script src="script.js"></script>
+</head>
+<body>
+	<div style="height: 20px;"></div>
+	<div class="ctop">
+		<span style="color: #ffee00; font-size: 30px; margin-right: 20px; width: 80px; "> encode </span>
+		<label class="switch" for="sch">
+			<input type="checkbox" id="sch" name="sch">
+			<span class="slider round"></span>
+		</label>
+		<span style="color: #66ff00; font-size: 30px; margin-left: 20px; width: 80px;">decode </span>
+	</div>
+	<div class="top">
+		<textarea id="first" name="first" class="tb" placeholder="input"></textarea>
+		<textarea placeholder="output" id="second"  class="tb" style="margin-left: 30px;"> </textarea>
+	</div>
+	<div class="top">
+		<button onclick="run()" class="btn">go</button>
+	</div>
+</body>
+</html>

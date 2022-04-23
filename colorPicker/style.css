@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.colorPicker {
+    border-style: none;
+    background-color: #FFFFFF;
+    height: 50px;
+    width: 120px;
+}
+.paragraph {
+    font-size: 20px;
+    color: #000000;
+    font-weight: bolder;
+    margin: 20px;
+}
+.content {
+    margin-left: 25px;
+}

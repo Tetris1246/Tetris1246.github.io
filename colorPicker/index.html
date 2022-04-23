@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorpicker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Tetris12's crapy color picker</h1>
+    <h2>made for his crapy applications</h2>
+    <div class="paragraph">
+        Pick a color:
+    </div>
+    <input class="colorPicker content" type="color" id="color" onchange="change()">
+    <div class="paragraph">
+        Colorcode:
+    </div>
+    <div class="colorcode content" id="colorcode"></div>
+    <div class="paragraph content">
+        How it looks:
+    </div>
+    <a href="https://emilmair.com/">
+        <img src="https://i.imgur.com/eAgmbgN.png" width="200px" id="sus" class="content">
+    </a>
+</body>
+<script>
+    document.getElementById("sus").style = "background-color: " + document.getElementById("color").value + ";"
+    document.getElementById("colorcode").innerHTML = document.getElementById("color").value;
+</script>
+</html>
