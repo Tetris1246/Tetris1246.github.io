@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+    </body>
+    <script src="https://tetris1246.github.io/MainPageAPI/MainPageAPI.js"></script>
+    <script>
+        let body = document.getElementsByTagName("body")[0];
+        addBigFields([customIcon("https://www.youtube.com", "images/play.jpg"), "https://www.reddit.com"], body);
+        space(50, body);
+        addIcons(["https://web.whatsapp.com", customIcon("https://mail.google.com", "https://tetris1246.github.io/MainPageAPI/images/mail.png")], body);
+        addSearchbar("www.duckduckgo.com", body);
+        addIcons([customIcon("https://groups.google.com", "images/group.svg"), "https://github.com"], body);
+        addBigFields([customIcon("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "images/giphy.gif")], body);
+        backgroundGradient(["#99c400", "#23a6d5", "#ff33ff", "#23d5ab"], body, 5, 30);
+    </script>
+</html>
