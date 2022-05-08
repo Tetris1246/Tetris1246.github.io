@@ -60,7 +60,7 @@ function addBigFields(url, body){
     }
 }
 function addSearchbar(machine, body) {
-    let url = "https://" + machine + ((machine!=='duckduckgo') ? ((machine!=='de.wikipedia.org') ? '/search' : '/wiki/Spezial:Suche') : '');
+    let url = "https://" + machine + ((machine!=='www.duckduckgo.com') ? ((machine!=='de.wikipedia.org') ? '/search' : '/wiki/Spezial:Suche') : '');
     let height = 30;
     let width = 600;
     let containerspace = 20;
