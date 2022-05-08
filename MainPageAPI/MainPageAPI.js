@@ -1,6 +1,5 @@
 let iconSize = 64; //px
 let apiUrl = "https://www.google.com/s2/favicons?sz={size}&domain_url={url}"; //{size} = size; {url} = url
-
 function addIcons(url, body){
     let count = url.length;
     let height = 50;
