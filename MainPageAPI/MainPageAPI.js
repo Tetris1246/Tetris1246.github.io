@@ -1,9 +1,6 @@
 let iconSize = 64; //px
 let apiUrl = "https://www.google.com/s2/favicons?sz={size}&domain_url={url}"; //{size} = size; {url} = url
 
-let maxWidth = 0;
-let maxHeight = 0;
-
 function addIcons(url, body){
     let count = url.length;
     let height = 50;
@@ -88,7 +85,7 @@ function addSearchbar(machine, body) {
     searchform.appendChild(searchbar);
     body.appendChild(searchform);
 }
-function backgroundColor(color){
+function backgroundColor(color, body){
     body.style = "background-color: " + color + ";"
     body.className = "body";
 }
