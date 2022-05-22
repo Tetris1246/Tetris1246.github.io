@@ -5,7 +5,7 @@ function addField() {
     fields += 1;
     let field = document.createElement("input");
     field.id =  "num" + fields;
-    field.placeholder =  "num" + fields;
+    field.placeholder =  "num: " + fields;
     field.type = "text";
     field.addEventListener("input", function () {
         this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1').replace(/^0[^.]/, '0');
@@ -22,7 +22,7 @@ function removeField() {
         console.log("cannot remove more fields");
     }
 }
-function kgv() {
+function calculateKgv() {
     let list = []
     let go = true;
     for (let i=1; i<=fields; i++) {
@@ -37,10 +37,22 @@ function kgv() {
         }
     }
     if (go) {
-        document.getElementById("kgv").innerHTML = getKGV(list);
+        let kgv = getKGV(list);
+        document.getElementById("kgv").innerHTML = kgv;
+        for (let i=1; i<=fields; i++) {
+            let field = document.getElementById("num" + i);
+            field.value = kgv + "/" + field.value + "=" + kgv/field.value;
+        }
     } else {
         document.getElementById("kgv").innerHTML = "ERROR";
     }
+}
+
+function clear() {
+    for (let i=1; i<=fields; i++) {
+        document.getElementById("num" + i).value = "";
+    }
+    document.getElementById("kgv").innerHTML = "";
 }
 
 addField();
@@ -48,4 +60,5 @@ addField();
 
 document.getElementById("add").addEventListener("click", addField);
 document.getElementById("remove").addEventListener("click", removeField);
-document.getElementById("calculate").addEventListener("click", kgv);
+document.getElementById("calculate").addEventListener("click", calculateKgv);
+document.getElementById("clear").addEventListener("click", clear);
