@@ -1,0 +1,27 @@
+body {
+    background-color: #282727;
+    font-family: Arial;
+    text-align: center;
+    margin: 100px;
+}
+.title {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+.input {
+    margin: 10px;
+    width: 150px;
+    background-color: #2a2a2a;
+    color: #ffffff;
+    padding: 5px;
+}
+.btn {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    margin: 10px;
+    margin-top: 20px;
+    width: 130px;
+    height: 30px;
+}
