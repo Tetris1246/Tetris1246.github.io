@@ -28,3 +28,13 @@ body {
 table {
     margin: 0px auto;
 }
+a {
+    font-family: Arial;
+    text-decoration: none;
+    color: #ffffff;
+}
+a:link:active, a:visited:active {
+    font-family: Arial;
+    text-decoration: none;
+    color: #b0b0b0;
+}
