@@ -73,7 +73,7 @@ page.addIcons({
         },
         {
             URL: "https://www.wikipedia.org/",
-            iconURL: "icons/Wikipedia-icon.png"
+            iconURL: "icons/Wikipedia-icon.svg"
         },
     ]
 });
