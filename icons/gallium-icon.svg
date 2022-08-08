@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16.0px"
+   height="16.0px"
+   viewBox="0 0 16.0 16.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="gallium-icon.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview20"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="32"
+     inkscape:cx="8.21875"
+     inkscape:cy="4.296875"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid26" />
+  </sodipodi:namedview>
+  <defs
+     id="defs15" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       inkscape:groupmode="layer"
+       id="layer2"
+       inkscape:label="Layer 2">
+      <rect
+         style="fill:#cccccc;stroke-width:1"
+         id="rect118"
+         width="16"
+         height="16"
+         x="0"
+         y="0" />
+    </g>
+    <text
+       id="TextOz031"
+       style="font-weight:bold;font-size:2.56px;font-family:Arial, sans-serif;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.16;stroke-linecap:square"
+       x="0.63999736"
+       y="2.8799992">31</text>
+    <text
+       id="text454"
+       style="font-weight:bold;font-size:2.56px;font-family:Arial, sans-serif;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.16;stroke-linecap:square"
+       x="15.359999"
+       y="2.8799992">69,723</text>
+    <text
+       id="TextSym031"
+       style="font-weight:bold;font-size:6.40002px;font-family:Arial, sans-serif;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.16;stroke-linecap:square"
+       x="8.0000038"
+       y="9.5999975">Ga</text>
+    <text
+       id="text812"
+       style="font-weight:normal;font-size:2.23999px;font-family:Arial, sans-serif;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.16;stroke-linecap:square"
+       x="8.0000038"
+       y="12.800002">Gallium</text>
+    <text
+       id="TextEl031"
+       style="font-weight:bold;font-size:2.56px;font-family:Arial, sans-serif;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.16;stroke-linecap:square"
+       x="0.63999736"
+       y="15.360001">1,81</text>
+    <text
+       id="TextDichte031"
+       style="font-weight:bold;font-size:2.56px;font-family:Arial, sans-serif;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.16;stroke-linecap:square"
+       x="15.359999"
+       y="15.360001">5,90</text>
+  </g>
+</svg>
