@@ -98,9 +98,9 @@ page.addFields({
 });
 
 page.setBackgroundGradient({
-    backgroundGradientColors: ["#99c400", "#23a6d5", "#ff33ff", "#23d5ab"],
+    backgroundGradientColors: ["#26ebfb", "#22acff", "#2561fc"],
     backgroundGradientAngle: -45,
-    backgroundGradientSpeed: 15
+    backgroundGradientSpeed: 10
 });
 
 document.body.appendChild(page.getElement());
