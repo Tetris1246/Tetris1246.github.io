@@ -42,8 +42,8 @@ page.addIcons(
                 iconURL: "icons/YouTube-icon.png"
             },
             {
-                URL: "https://rg-tfo-meran.openportal.siag.it/",
-                iconURL: "icons/Books-icon.svg"
+                URL: "https://www.office.com",
+                iconURL: "icons/Office.svg"
             }
         ]
     }
