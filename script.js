@@ -8,7 +8,7 @@ page.addFields(
                 iconURL: "icons/Register-icon.png"
             },
             {
-                URL: "https://justlearnit.org/moodle/",
+                URL: "https://justlearnit.rgtfo-me.it/moodle/",
                 iconURL: "icons/Moodle-icon.svg"
             },
             {
@@ -52,16 +52,16 @@ page.addIcons(
 page.addIcons({
     pages: [
         {
-            URL: "https://resoomer.com/de/",
-            iconURL: "https://resoomer.com/img/resoomer-logo-simple.png"
+            URL: "https://github.com/",
+            iconURL: "icons/Github.svg"
         },
         {
             URL: "https://web.whatsapp.com/",
             iconURL: "icons/WhatsApp-icon.png"
         },
         {
-            URL: "https://upload.wikimedia.org/wikipedia/commons/0/00/Periodensystem_Einfach.svg",
-            iconURL:"icons/gallium-icon.svg"
+            URL: "https://chatgpt.com/",
+            iconURL:"icons/ChatGPT.svg"
         }, 
         {
             URL: "https://www.netflix.com/browse",
